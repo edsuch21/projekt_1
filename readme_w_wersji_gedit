@@ -123,7 +123,7 @@ value			SIGN number
 			boolen
 
 
-any_type_array		OSB value any_type_array CSB
+any_type_array		OSB value any_type_array_cont CSB
 			OSB CSB
 
 

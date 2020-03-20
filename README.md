@@ -74,7 +74,7 @@ value | SIGN number
 | | number
 | | string
 | | boolen
-any_type_array | OSB value any_type_array CSB
+any_type_array | OSB value any_type_array_cont CSB
 | | OSB CSB
 any_type_array_cont | COMMA value any_type_array_cont
 | | eps
