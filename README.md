@@ -41,7 +41,7 @@ statement | id_stmt
 | | ref_stmt
 | | definitions_stmt
 | | min_max_length_stmt
-statement_cont | COMMA QUOTES statement_cont
+statement_cont | COMMA QUOTES statement statement_cont
 | | eps
 id_stmt	| $ID qcq_stmt STRING QUOTES
 schema_stmt | $SCHEMA qcq_stmt STRING QUOTES
