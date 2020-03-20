@@ -45,7 +45,7 @@ statement		id_stmt
 			min_max_length_stmt
 
 
-statement_cont		COMMA QUOTES statement_cont
+statement_cont		COMMA QUOTES statement statement_cont
 			eps
 
 
