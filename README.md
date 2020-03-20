@@ -1,9 +1,11 @@
 Projekt wykonali:
 
 Edward Sucharda 284388
+
 Kacper Baczyński 276409
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 by uruchomić projekt należy wpisać komendę:
 
 
@@ -24,10 +26,13 @@ SYMBOL | WYRAŻENIE
 :-:|:-:
 start |	OCB program CCB EOF
 program	| start_statement program
-- | eps
+| | eps
 start_statement | QUOTES statement statement_cont
 statement | id_stmt
-- | schema_stmt
+| | schema_stmt
+
+
+
 - | title_stmt
 - | required_stmt
 - | type_stmt
