@@ -160,8 +160,7 @@ class Parser:
         print("properties_stmt: OK")
 
     def string_stmt(self):
-        # string_stmt -> STRING qc_stmt SIGN value | STRING qc_stmt QUOTES value | STRING qc_stmt INTEGER value |
-        # STRING qc_stmt NUMBER value | STRING qc_stmt FALSE value | STRING qc_stmt TRUE value |
+        # string_stmt -> STRING qc_stmt value |
         # STRING qc_stmt OSB any_type_array | STRING qc_stmt OCB object
         self.take_token("STRING")
         self.qc_stmt()
