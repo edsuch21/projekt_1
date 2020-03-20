@@ -24,24 +24,20 @@ SYMBOL | WYRAŻENIE
 start |	OCB program CCB EOF
 program	| start_statement program
  | eps
-
-
-start_statement		QUOTES statement statement_cont
-
-
-statement		id_stmt
-			schema_stmt
-			title_stmt
-			required_stmt
-			type_stmt
-			propertioes_stmt
-			string_stmt
-			description_stmt
-			min_max_stmt
-			enum_stmt
-			ref_stmt
-			definitions_stmt
-			min_max_length_stmt
+start_statement | QUOTES statement statement_cont
+statement | id_stmt
+ | schema_stmt
+ | title_stmt
+ | required_stmt
+ | type_stmt
+ | propertioes_stmt
+ | string_stmt
+ | description_stmt
+ | min_max_stmt
+ | enum_stmt
+ | ref_stmt
+ | definitions_stmt
+ | min_max_length_stmt
 
 
 statement_cont		COMMA QUOTES statement_cont
