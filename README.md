@@ -6,7 +6,7 @@ Kacper Baczyński 276409
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-by uruchomić projekt należy wpisać komendę:
+by uruchomić projekt należy wpisać komendęw terminalu:
 
 
 python validator.py exampleFile.txt
@@ -23,7 +23,7 @@ Gramatyka BNF:
 
 
 SYMBOL | WYRAŻENIE
-:-:|:-:
+:-|:-
 start |	OCB program CCB EOF
 program	| start_statement program
 | | eps
