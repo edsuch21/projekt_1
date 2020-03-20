@@ -21,9 +21,9 @@ Gramatyka BNF:
 
        SYMBOL		|      WYRAŻENIE
 :----------------------:|:----------------------:
-start		        |OCB program CCB EOF
-program			|start_statement program
-			|eps
+start		        |	OCB program CCB EOF
+program			|	start_statement program
+			|	eps
 
 
 start_statement		QUOTES statement statement_cont
