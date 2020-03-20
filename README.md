@@ -91,7 +91,7 @@ string | QUOTES keyword QUOTES
 | | QUOTES type QUOTES
 | | OUTES QUOTES
 type_string| QUOTES type QUOTES
-type_array | OSB string type_array_cont CSB
+type_array | OSB type_string type_array_cont CSB
 type_array_cont | COMMA type_string type_array_cont
 | | eps
 boolen	| FALSE
