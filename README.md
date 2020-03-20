@@ -57,8 +57,6 @@ string_stmt | STRING qc_stmt SIGN value
 | | STRING qc_stmt TRUE value
 | | STRING qc_stmt OSB any_type_array
 | | STRING qc_stmt OCB object
-| | STRING qc_stmt
-| | STRING qc_stmt
 description_stmt | DESCRIPTION qcq_stmt STRING QUOTES
 min_max_stmt | min_max qc_stmt SIGN number
 | | min_max qc_stmt number

@@ -75,8 +75,6 @@ string_stmt		STRING qc_stmt SIGN value
 			STRING qc_stmt TRUE value
 			STRING qc_stmt OSB any_type_array
 			STRING qc_stmt OCB object
-			STRING qc_stmt
-			STRING qc_stmt
 			
 
 
